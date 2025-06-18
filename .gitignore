@@ -1,0 +1,18 @@
+# build klasörleri
+bin/
+obj/
+
+# derlenmiş dosyalar
+*.dll
+*.exe
+*.pdb
+
+# Rider / VS / IDE dosyaları
+.idea/
+.vscode/
+*.user
+*.suo
+
+# OS sistem dosyaları
+.DS_Store
+Thumbs.db
