@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsentFormEngine.Business", "ConsentFormEngine.Business\ConsentFormEngine.Business.csproj", "{A3F890B7-3555-4B36-A905-C869D87C3C27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsentFormEngine.Core", "ConsentFormEngine.Core\ConsentFormEngine.Core.csproj", "{4439685A-220F-4BD8-A9A1-624CEA2F3B96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsentFormEngine.DataAccess", "ConsentFormEngine.DataAccess\ConsentFormEngine.DataAccess.csproj", "{157AC7A2-56EF-42BD-8590-A90C0933AB97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsentFormEngine.Entities", "ConsentFormEngine.Entities\ConsentFormEngine.Entities.csproj", "{27D2AE4B-8B5E-44B6-A188-FE7DD6A1C06C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsentFormEngine.WebAPI", "ConsentFormEngine.WebAPI\ConsentFormEngine.WebAPI.csproj", "{88E4782B-53B2-4C27-A833-20B52814A1E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5A7CE9CC-5EF9-4575-9655-603992B88875}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3F890B7-3555-4B36-A905-C869D87C3C27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3F890B7-3555-4B36-A905-C869D87C3C27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3F890B7-3555-4B36-A905-C869D87C3C27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3F890B7-3555-4B36-A905-C869D87C3C27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4439685A-220F-4BD8-A9A1-624CEA2F3B96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4439685A-220F-4BD8-A9A1-624CEA2F3B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4439685A-220F-4BD8-A9A1-624CEA2F3B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4439685A-220F-4BD8-A9A1-624CEA2F3B96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{157AC7A2-56EF-42BD-8590-A90C0933AB97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{157AC7A2-56EF-42BD-8590-A90C0933AB97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{157AC7A2-56EF-42BD-8590-A90C0933AB97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{157AC7A2-56EF-42BD-8590-A90C0933AB97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27D2AE4B-8B5E-44B6-A188-FE7DD6A1C06C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27D2AE4B-8B5E-44B6-A188-FE7DD6A1C06C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27D2AE4B-8B5E-44B6-A188-FE7DD6A1C06C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27D2AE4B-8B5E-44B6-A188-FE7DD6A1C06C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88E4782B-53B2-4C27-A833-20B52814A1E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88E4782B-53B2-4C27-A833-20B52814A1E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88E4782B-53B2-4C27-A833-20B52814A1E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88E4782B-53B2-4C27-A833-20B52814A1E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

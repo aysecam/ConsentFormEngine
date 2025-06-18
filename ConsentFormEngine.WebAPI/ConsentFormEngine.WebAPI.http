@@ -1,0 +1,6 @@
+@ConsentFormEngine.WebAPI_HostAddress = http://localhost:5296
+
+GET {{ConsentFormEngine.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
