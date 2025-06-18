@@ -44,19 +44,23 @@ A modular .NET 8 WebAPI for secure form submission and user authentication with 
    cd ConsentFormEngine
    
 2. Create the initial migration (only once)
+   
 dotnet ef migrations add InitialCreate \
   --project ConsentFormEngine.DataAccess/ConsentFormEngine.DataAccess.csproj \
   --startup-project ConsentFormEngine.WebAPI/ConsentFormEngine.WebAPI.csproj
    
 3. Start the containers
+   
 docker-compose up --build -d
 
 4. Test the API
+   
 Swagger UI: http://localhost:8080/swagger
 HealthCheck: http://localhost:8080/health
 
 5-On code changes
 Rebuild and restart with:
+
 docker-compose up --build -d
 
 
